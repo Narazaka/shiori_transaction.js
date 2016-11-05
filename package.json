@@ -8,13 +8,14 @@
     "shiori"
   ],
   "main": "./lib/shiori_transaction.js",
+  "types": "./src/lib/shiori_transaction.d.ts",
   "scripts": {
     "test": "gulp test-cli",
     "codecov": "gulp test-node && cat coverage/lcov.info | codecov"
   },
   "dependencies": {
     "shiori_converter": "^0.0.3",
-    "shiorijk": "^0.3.0"
+    "shiorijk": "^0.4.1"
   },
   "devDependencies": {
     "babel-eslint": "^5.0.0-beta6",
