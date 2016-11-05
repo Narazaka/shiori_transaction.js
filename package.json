@@ -14,7 +14,7 @@
     "codecov": "gulp test-node && cat coverage/lcov.info | codecov"
   },
   "dependencies": {
-    "shiori_converter": "^0.0.3",
+    "shiori_converter": "^0.0.4",
     "shiorijk": "^0.4.1"
   },
   "devDependencies": {
