@@ -14,8 +14,8 @@
     "codecov": "gulp test-node && cat coverage/lcov.info | codecov"
   },
   "dependencies": {
-    "shiori_converter": "^0.0.4",
-    "shiorijk": "^0.4.1"
+    "shiori_converter": ">= 0.0.5 < 1",
+    "shiorijk": ">= 0.5 < 1.0"
   },
   "devDependencies": {
     "babel-eslint": "^5.0.0-beta6",
