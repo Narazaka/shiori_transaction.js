@@ -4,8 +4,6 @@
 [![npm license](https://img.shields.io/npm/l/shiori_transaction.svg)](https://www.npmjs.com/package/shiori_transaction)
 [![npm download total](https://img.shields.io/npm/dt/shiori_transaction.svg)](https://www.npmjs.com/package/shiori_transaction)
 [![npm download by month](https://img.shields.io/npm/dm/shiori_transaction.svg)](https://www.npmjs.com/package/shiori_transaction)
-[![Bower](https://img.shields.io/bower/v/shiori_transaction.svg)](https://github.com/Narazaka/shiori_transaction.js)
-[![Bower](https://img.shields.io/bower/l/shiori_transaction.svg)](https://github.com/Narazaka/shiori_transaction.js)
 
 [![Dependency Status](https://david-dm.org/Narazaka/shiori_transaction.js.svg)](https://david-dm.org/Narazaka/shiori_transaction.js)
 [![devDependency Status](https://david-dm.org/Narazaka/shiori_transaction.js/dev-status.svg)](https://david-dm.org/Narazaka/shiori_transaction.js#info=devDependencies)
@@ -20,11 +18,6 @@ SHIORI Protocol transaction
 npm:
 ```
 npm install shiori_transaction
-```
-
-bower:
-```
-bower install shiori_transaction
 ```
 
 This module depends on [ShioriJK](https://github.com/Narazaka/shiorijk) and [shiori_converter.js](https://github.com/Narazaka/shiori_converter.js).
