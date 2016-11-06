@@ -5,6 +5,10 @@
     "rules": {
         "interface-name": [
             false
-        ]
+        ],
+        "member-access": [
+            false
+        ],
+        "variable-name": [true, "allow-leading-underscore"]
     }
 }
