@@ -7,7 +7,8 @@
 
 [![Dependency Status](https://david-dm.org/Narazaka/shiori_transaction.js.svg)](https://david-dm.org/Narazaka/shiori_transaction.js)
 [![devDependency Status](https://david-dm.org/Narazaka/shiori_transaction.js/dev-status.svg)](https://david-dm.org/Narazaka/shiori_transaction.js#info=devDependencies)
-[![Build Status](https://travis-ci.org/Narazaka/shiori_transaction.js.svg)](https://travis-ci.org/Narazaka/shiori_transaction.js)
+[![Travis Build Status](https://travis-ci.org/Narazaka/shiori_transaction.js.svg)](https://travis-ci.org/Narazaka/shiori_transaction.js)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/Narazaka/shiori_transaction.js?svg=true)](https://ci.appveyor.com/project/Narazaka/shiori-transaction-js)
 [![codecov.io](https://codecov.io/github/Narazaka/shiori_transaction.js/coverage.svg?branch=master)](https://codecov.io/github/Narazaka/shiori_transaction.js?branch=master)
 [![Code Climate](https://codeclimate.com/github/Narazaka/shiori_transaction.js/badges/gpa.svg)](https://codeclimate.com/github/Narazaka/shiori_transaction.js)
 
