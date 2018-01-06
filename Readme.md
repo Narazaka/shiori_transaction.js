@@ -1,5 +1,7 @@
 # [shiori_transaction.js](https://github.com/Narazaka/shiori_transaction.js)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Narazaka/shiori_transaction.js.svg)](https://greenkeeper.io/)
+
 [![npm](https://img.shields.io/npm/v/shiori_transaction.svg)](https://www.npmjs.com/package/shiori_transaction)
 [![npm license](https://img.shields.io/npm/l/shiori_transaction.svg)](https://www.npmjs.com/package/shiori_transaction)
 [![npm download total](https://img.shields.io/npm/dt/shiori_transaction.svg)](https://www.npmjs.com/package/shiori_transaction)
