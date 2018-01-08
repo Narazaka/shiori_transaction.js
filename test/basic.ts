@@ -1,6 +1,6 @@
 import * as assert from "power-assert";
 import * as ShioriJK from "shiorijk";
-import {ShioriConvertableRequest, ShioriConvertableResponse, ShioriTransaction} from "../lib/shiori_transaction";
+import {ShioriTransaction} from "../lib/shiori_transaction";
 
 describe("ShioriTransaction", () => {
   let request3: ShioriJK.Message.Request;
@@ -63,13 +63,19 @@ describe("ShioriTransaction", () => {
 
   it("to() will convert 3 <-> 2", () => {
     const transaction = new ShioriTransaction();
-    transaction.setRequest(request3);
-    assert((request3 as ShioriConvertableRequest).to instanceof Function);
-    assert((request3 as ShioriConvertableRequest).to("2.6").toString() === request2.toString());
-    assert(transaction.request.to("2.6").toString() === request2.toString());
-    transaction.setResponse(response2);
-    assert((response2 as ShioriConvertableResponse).to instanceof Function);
-    assert((response2 as ShioriConvertableResponse).to("3.0").toString() === response3.toString());
-    assert(transaction.response.to("3.0").toString() === response3.toString());
+    if (transaction.setRequest(request3)) {
+      assert(request3.to instanceof Function);
+      assert(request3.to("2.6").toString() === request2.toString());
+      assert(transaction.request.to("2.6").toString() === request2.toString());
+    } else {
+      assert.fail();
+    }
+    if (transaction.setResponse(response2)) {
+      assert(response2.to instanceof Function);
+      assert(response2.to("3.0").toString() === response3.toString());
+      assert(transaction.response.to("3.0").toString() === response3.toString());
+    } else {
+      assert.fail();
+    }
   });
 });

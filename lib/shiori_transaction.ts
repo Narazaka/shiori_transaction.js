@@ -17,9 +17,10 @@ export class ShioriTransaction {
    * request
    * @param request request
    */
-  setRequest(request: ShioriJK.Message.Request) {
+  setRequest(request: ShioriJK.Message.Request): request is ShioriConvertableRequest {
     this._request = request as any;
     this._request.to = this.requestTo.bind(this);
+    return true;
   }
 
   /** response */
@@ -31,9 +32,10 @@ export class ShioriTransaction {
    * response
    * @param response response
    */
-  setResponse(response: ShioriJK.Message.Response) {
+  setResponse(response: ShioriJK.Message.Response): response is ShioriConvertableResponse {
     this._response = response as any;
     this._response.to = this.responseTo.bind(this);
+    return true;
   }
 
   /**
