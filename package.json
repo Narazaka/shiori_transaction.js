@@ -25,8 +25,10 @@
     "docdist": "cd doc && git clean -fd && git rm -rf * && cd .. && npm run doc && cd doc && touch .nojekyll && git add . && git commit -m doc && git push",
     "doc": "typedoc --mode modules --out doc --readme Readme.md --name \"API Document\" --disableOutputCheck --includeDeclarations --excludeNotExported lib && cd doc && git status && cd .."
   },
-  "dependencies": {
-    "shiori_converter": "^2.0.1"
+  "dependencies": {},
+  "peerDependencies": {
+    "shiori_converter": "^2.0.2",
+    "shiorijk": "^1.0.0"
   },
   "devDependencies": {
     "@types/mocha": "^2.2.46",
@@ -38,8 +40,9 @@
     "mocha": "^4.1.0",
     "nyc": "^11.4.1",
     "power-assert": "^1.4.4",
-    "shx": "^0.2.2",
+    "shiori_converter": "^2.0.2",
     "shiorijk": "^1.0.0",
+    "shx": "^0.2.2",
     "tslint": "^5.9.1",
     "typedoc": "^0.9.0",
     "typescript": "^2.6.2"

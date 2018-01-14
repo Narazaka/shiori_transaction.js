@@ -20,7 +20,7 @@ SHIORI Protocol transaction
 
 npm:
 ```
-npm install shiori_transaction
+npm install shiorijk shiori_converter shiori_transaction
 ```
 
 This module depends on [ShioriJK](https://github.com/Narazaka/shiorijk) and [shiori_converter.js](https://github.com/Narazaka/shiori_converter.js).
