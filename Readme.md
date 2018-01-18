@@ -4,6 +4,7 @@
 [![npm license](https://img.shields.io/npm/l/shiori_transaction.svg)](https://www.npmjs.com/package/shiori_transaction)
 [![npm download total](https://img.shields.io/npm/dt/shiori_transaction.svg)](https://www.npmjs.com/package/shiori_transaction)
 [![npm download by month](https://img.shields.io/npm/dm/shiori_transaction.svg)](https://www.npmjs.com/package/shiori_transaction)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FNarazaka%2Fshiori_transaction.js.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FNarazaka%2Fshiori_transaction.js?ref=badge_shield)
 
 [![Dependency Status](https://david-dm.org/Narazaka/shiori_transaction.js/status.svg)](https://david-dm.org/Narazaka/shiori_transaction.js)
 [![devDependency Status](https://david-dm.org/Narazaka/shiori_transaction.js/dev-status.svg)](https://david-dm.org/Narazaka/shiori_transaction.js?type=dev)
@@ -80,3 +81,6 @@ console.log(response2.to('3.0').toString());
 ## License
 
 This is released under [MIT License](http://narazaka.net/license/MIT?2015).
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FNarazaka%2Fshiori_transaction.js.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FNarazaka%2Fshiori_transaction.js?ref=badge_large)
