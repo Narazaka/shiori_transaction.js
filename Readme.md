@@ -11,9 +11,7 @@
 [![Travis Build Status](https://travis-ci.org/Narazaka/shiori_transaction.js.svg?branch=master)](https://travis-ci.org/Narazaka/shiori_transaction.js)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/Narazaka/shiori_transaction.js?svg=true&branch=master)](https://ci.appveyor.com/project/Narazaka/shiori-transaction-js)
 [![codecov.io](https://codecov.io/github/Narazaka/shiori_transaction.js/coverage.svg?branch=master)](https://codecov.io/github/Narazaka/shiori_transaction.js?branch=master)
-[![Code Climate](https://codeclimate.com/github/Narazaka/shiori_transaction.js/badges/gpa.svg)](https://codeclimate.com/github/Narazaka/shiori_transaction.js)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/937719d8b0dc4da28e4f6888fa6ea91d)](https://www.codacy.com/app/narazaka/shiori_transaction-js?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Narazaka/shiori_transaction.js&amp;utm_campaign=Badge_Grade)
-[![Greenkeeper badge](https://badges.greenkeeper.io/Narazaka/shiori_transaction.js.svg)](https://greenkeeper.io/)
 
 SHIORI Protocol transaction
 
