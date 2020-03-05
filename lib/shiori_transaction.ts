@@ -1,4 +1,4 @@
-import {ShioriConverter} from "shiori_converter";
+import { ShioriConverter } from "shiori_converter";
 import * as ShioriJK from "shiorijk";
 
 /**
@@ -6,6 +6,7 @@ import * as ShioriJK from "shiorijk";
  */
 export class ShioriTransaction {
   private _request: ShioriConvertableRequest;
+
   private _response: ShioriConvertableResponse;
 
   /** request */

@@ -1,6 +1,6 @@
 import * as assert from "power-assert";
 import * as ShioriJK from "shiorijk";
-import {ShioriTransaction} from "../lib/shiori_transaction";
+import { ShioriTransaction } from "../lib/shiori_transaction";
 
 describe("ShioriTransaction", () => {
   let request3: ShioriJK.Message.Request;
@@ -10,49 +10,49 @@ describe("ShioriTransaction", () => {
   beforeEach(() => {
     request3 = new ShioriJK.Message.Request({
       request_line: {
-        method:  "GET",
+        method: "GET",
         version: "3.0",
       },
       headers: {
-        ID:      "OnBoot",
+        ID: "OnBoot",
         Charset: "UTF-8",
-        Sender:  "Ikagaka",
+        Sender: "Ikagaka",
       },
     });
 
     request2 = new ShioriJK.Message.Request({
       request_line: {
-        method:  "GET Sentence",
+        method: "GET Sentence",
         version: "2.6",
       },
       headers: {
-        Event:   "OnBoot",
+        Event: "OnBoot",
         Charset: "UTF-8",
-        Sender:  "Ikagaka",
+        Sender: "Ikagaka",
       },
     });
 
     response2 = new ShioriJK.Message.Response({
       status_line: {
-        code:    200,
+        code: 200,
         version: "2.6",
       },
       headers: {
         Sentence: "\\h\\s[0]\\e",
-        Charset:  "UTF-8",
-        Sender:   "ikaga",
+        Charset: "UTF-8",
+        Sender: "ikaga",
       },
     });
 
     response3 = new ShioriJK.Message.Response({
       status_line: {
-        code:    200,
+        code: 200,
         version: "3.0",
       },
       headers: {
-        Value:   "\\h\\s[0]\\e",
+        Value: "\\h\\s[0]\\e",
         Charset: "UTF-8",
-        Sender:  "ikaga",
+        Sender: "ikaga",
       },
     });
   });
